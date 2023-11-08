@@ -1,0 +1,13 @@
+.LeanrMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bgLeanr {
+    position: relative;
+}
+
+#helpLeanr {
+    position: absolute;
+}

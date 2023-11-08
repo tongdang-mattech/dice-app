@@ -1,0 +1,38 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 50%);
+    position: fixed;
+    z-index: 2;
+}
+
+.btnMenu {
+    border: none;
+    border: none;
+    background: none;
+    padding-top: 10px;
+}
+
+.appli {
+    font-size: 0.9rem;
+}
+
+.btnMenu:hover {
+    padding-top: 9px;
+    border-top: 1px solid black;
+}
+
+.textBanner {
+    margin: -20px 0;
+
+    font-family: 'Oswald', sans-serif;
+}
+
+.textBannerDesktop {
+    margin: -5px 0;
+    font-family: 'Oswald', sans-serif;
+}

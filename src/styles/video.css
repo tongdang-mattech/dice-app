@@ -1,0 +1,28 @@
+.content {
+    position: relative;
+}
+
+.vertical-letters {
+    transform: rotate(-90deg) translateX(-100%);
+    transform-origin: 0px 0px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.08rem;
+    line-height: 1;
+    min-width: 150px;
+    min-height: 200px;
+    position: absolute;
+}
+
+.btnCard {
+    border: none;
+    background: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btnCard:hover {
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
